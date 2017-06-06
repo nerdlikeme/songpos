@@ -1,5 +1,5 @@
 # songpos
-When you query for a song in format "Firehouse - When I Look Into Your Eyes" you will get its Weekly Chart table and and Year End table (such as this table https://en.wikipedia.org/wiki/When_I_Look_Into_Your_Eyes) in the form 
+When you query an artist and song title in the format "Firehouse - When I Look Into Your Eyes" you will get its Weekly Chart table and and Year End table (such as this table https://en.wikipedia.org/wiki/When_I_Look_Into_Your_Eyes) in the form 
 
 [ { type: 'Weekly Chart',
     heading: [ 'Chart (1992-93)', 'Peak position' ],

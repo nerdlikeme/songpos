@@ -1,0 +1,7 @@
+var express = require('express');
+var app = express();
+var str ='"Chirpy Chirpy Cheep Cheep" by Middle of the Road (iTunes)';
+console.log("hi");
+str.replace(/^(?:\[[^\]]*\]|\([^()]*\))\s*|\s*(?:\[[^\]]*\]|\([^()]*\))/g, "");
+var arr = str.match('(?<a>.*) (?: by) (?<b>.*)');
+console.log(arr);
